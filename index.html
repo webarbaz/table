@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first work</title>
+    <link rel="stylesheet" href="style.css">
+    <style> 
+    p{
+        color: beige;
+        background-color: blue;
+        text-align: center;
+        border: 2px solid;
+        text-transform: capitalize;
+        padding: 
+        
+    }
+     
+     
+     
+     
+     
+     </style>
+ 
+</head>
+<body>  
+
+
+<!-- <p>my name is arbaz salmani,</p> -->
+    <!-- <h1>my first html class</h1>
+    <h2>my second html class</h2>
+     <h3>my third html class</h3>
+     <h4>my fouth html class</h4>
+     <h5>my fifth html class</h5>
+     <h6>my last html class</h6> -->
+
+ 
+
+    <table>
+        <tbody><tr>
+            <th> name</th>
+            <th>Age</th>
+            <th>course</th>
+            <th>Emailaddress</th>
+            <th>institute name</th>
+
+        </tr>
+        <tr> 
+            <td>arbaz</td>
+            <td>20</td>
+            <td>web development</td>
+            <td>arbazsalmani077@gmail.com</td>
+            <td>TGC Preet Vihar</td>
+
+        </tr>
+        <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>course</th>
+        <th>Emailaddress</th>
+        <th>institute name</th>
+        </tr>
+        <tr>
+       <td>tushar</td>
+       <td>20</td>
+       <td>web development</td>
+       <td>tushar9890@gmail.com</td>
+       <td>TGC Preet Vihar</td>
+        </tr>
+        <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>course</th>
+        <th>Emailaddress</th>
+        <th>intitute name</th>
+       </tr>
+       <tr>
+        <td>ansh</td>
+        <td>20</td>
+        <td>web development</td>
+        <td>ansh9880@gmail.com</td>
+        <td>TGC Preet Vihar</td>
+       </tr>
+
+    </tbody></table>
+
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+
+</body></html>

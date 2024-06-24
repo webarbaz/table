@@ -1,0 +1,10 @@
+table,th,td,tr{ 
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;     
+}
+
+.th,td{
+background-color: aqua;
+}
+
